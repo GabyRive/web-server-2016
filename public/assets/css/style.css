@@ -290,9 +290,6 @@
       transition: .2s;
       margin-bottom: 10px;
     }
-    .howdoesitwork-h5:hover {
-      transform: scale(1.2, 1.2);
-    }
     #howdoesitwork-div1 {
       padding-top: 50px;
       padding-left: 0px;
