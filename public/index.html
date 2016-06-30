@@ -54,57 +54,78 @@
 
 <body>
 
-  <!-- <div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="assets/images/photo-1432821596592-e2c18b78144f.jpg" data-natural-width="1400" data-natural-height="900" style="height: 100%;"> -->
-  <div id="maincontainer-image-bg" class="container-fluid">
-    <div class="row main-container-row">
-      <div class="col-md-6 col-xs-12">
-        <h1 class="h1-turnapp">Turn.App</h1>
-        <p class="main-paragraph">
-          Turn.App is a customer service optimization system that allows its users to monitor their turn on real time.
-        </p>
-        <p id="second-mainp">
-          This technology-based, customer service optimization platform aids health care professionals in managing patient attendance, providing individualized assistance, and promoting overall satisfaction and well-being.
-        </p>
-        <a id="get-button" class="btn btn-primary btn-block" href="#">
+  <div class="jumbotron">
+    <div id="maincontainer-image-bg" class="container-fluid">
+      <div class="row main-container-row">
+        <div class="col-md-8 col-xs-12 border-v">
+          <h1 class="h1-turnapp"><span style="color:rgb(24, 167, 98);">Turn</span><span style="color:#f55115;">.</span>App</h1>
+          <p class="main-paragraph">
+            Turn.App is a customer service optimization system that allows its users to monitor their turn on real time.
+          </p>
+          <p id="second-mainp">
+            This technology-based, customer service optimization platform aids health care professionals in managing patient attendance, providing individualized assistance, and promoting overall satisfaction and well-being.
+          </p>
+          <a id="get-button" class="btn btn-primary btn-block" href="#">
                 Get Turn.App Now
               </a>
-      </div>
+        </div>
 
-      <!--LogIn -->
+        <!--LogIn -->
 
-      <div id="log-in" class="col-md-6 col-xs-12">
-        <h1 class="h1-login-turnapp">Log In</h1>
-
-        <div class="account-wall">
-          <form class="form-signin">
-            <div id="email-login" class="col-md-6 col-md-offset-3">
-              <input type="text" class="form-control" placeholder="Email" required autofocus>
+        <div id="log-in" class="col-md-4 col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading" id="panel-head1">
+              <p id="thirdmain-p">Already have an account?</p>
             </div>
-            <div class="col-md-6 col-md-offset-3">
-              <input type="password" class="form-control" placeholder="Password" required>
-            </div>
-            <div id="sign-in-button" class="col-md-6 col-md-offset-3">
-              <a href="#" class="sign-in-btn btn btn-lg btn-primary btn-block sign-in-button">
+            <div class="panel-body" id="body-color">
+              <h1 class="h1-login-turnapp">Log In</h1>
+              <form class="form-signin">
+                <div class="row">
+                  <fieldset class="form-group">
+                    <div id="email-login" class="col-xs-12">
+                      <input type="text" class="form-control input-bkg" placeholder="Email" required autofocus>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="row">
+                  <fieldset class="form-group">
+                    <div class="col-xs-12">
+                      <input type="password" class="form-control input-bkg" placeholder="Password" required>
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="row">
+                  <fieldset class="form-group">
+                    <div id="sign-in-button" class="col-md-6 col-md-offset-3">
+                      <a href="#" class="sign-in-btn btn btn-lg btn-primary btn-block sign-in-button">
                           Log In
                       </a>
-              <!-- <button class="sign-in-btn btn btn-lg btn-primary btn-block sign-in-button" type="submit">
-                        Log in</button> -->
+
+                    </div>
+                  </fieldset>
+                </div>
+                <div class="row">
+                  <div id="check-box" class="col-md-6 col-md-offset-3">
+                    <label class="checkbox">
+                      <span id="rememberme"><input  type="checkbox" value="remember-me"> Remember me
+                  </label></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <fieldset class="form-group">
+                    <div id="need-help" class="col-md-6 col-md-offset-3">
+                      <a class="ach-turn" href="#">Need help? </a>
+                    </div>
+                    <div id="create-account" class="col-md-6 col-md-offset-3">
+                      <a class="ach-turn" href="#">Create an account </a>
+                    </div>
+                  </fieldset>
+                </div>
+              </form>
             </div>
-            <div id="check-box" class="col-md-6 col-md-offset-3">
-              <label class="checkbox">
-                <input type="checkbox" value="remember-me"> Remember me
-              </label>
-            </div>
-            <div id="need-help" class="col-md-6 col-md-offset-3">
-              <a href="#">Need help? </a>
-            </div>
-            <div id="create-account" class="col-md-6 col-md-offset-3">
-              <a href="#">Create an account </a>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
   <!-- </div> -->
@@ -112,28 +133,39 @@
 
 
   <!--About us-->
+  <section id="about-us-bgn">
   <div id="about-us" class="container">
-    <div id="wrap2" class="row">
+    <div class="row">
       <div class="col-xs-12">
         <h1 id="aboutus-h1">About us</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row pdn-about">
       <div class="col-md-4 col-xs-12">
-        <img class="img-responsive center-block icon-img" src="assets/images/UI_PerkIcon_Medic_black.png" alt="example icon" width="50px" />
+        <img class="img-responsive center-block icon-img" src="assets/images/UI_PerkIcon_Medic_black.png" alt="example icon" width="50%" />
+      </div>
+      <div class="col-md-8">
         <p class="aboutus-p">
           Through Turn., health care providers will find a simple yet effective solution to over-crowded waiting areas, uneasy staff workers, all while permitting a personalized approach to tending patients, before they enter the actual doctor’s office.
         </p>
       </div>
-      <div class="col-md-4 col-xs-12">
-        <img class="img-responsive center-block icon-img" src="assets/images/chart.png" alt="example icon" width="40px" />
+    </div>
+    <div class="row pdn-about2">
+      <div class="col-md-8 col-xs-12">
         <p class="aboutus-p">
-          Our studies have show that 83% of people find waiting at medical offices troublesome, as well as a influential factor in the decision of scheduling an appointment. 91% of the same population stated that they would be more inclined to frequent their
-          medical service providers, if a solution to the waiting inconvenience existed.
+          Our studies have show that 83% of people find waiting at medical offices troublesome, as well as a influential factor in the decision of scheduling an appointment. 91% of the same population stated that they would be more inclined to frequent their medical
+          service providers, if a solution to the waiting inconvenience existed.
         </p>
       </div>
+      <div class="col-md-4">
+        <img class="img-responsive center-block icon-img" src="assets/images/chart.png" alt="example icon" width="40%" />
+      </div>
+    </div>
+    <div class="row pdn-about2">
       <div class="col-md-4 col-xs-12">
-        <img class="img-responsive center-block icon-img" src="assets/images/clock.png" alt="example icon" width="50px" />
+        <img class="img-responsive center-block icon-img" src="assets/images/clock.png" alt="example icon" width="50%" />
+      </div>
+      <div class="col-md-8">
         <p class="aboutus-p">
           Turn. allows its users to monitor their assigned turn at a health service provider, all on real time. Patients will be able to use their accustomed waiting time however they please. Thus eliminating the adverse limitations that come with seeking medical
           attention.
@@ -141,9 +173,10 @@
       </div>
     </div>
   </div>
+</section>
 
   <!--How does it work? -->
-  <div class="container">
+  <div class="container" id="border-h">
     <div id="how-doesit-work" class="row">
       <h3 id="howdoesitwork-h3">How does it work</h3>
       <div class="col-md-6 col-xs-12 ">
@@ -171,57 +204,66 @@
     </div>
   </div>
 
-  <!--Subscribe -->
+
   <!-- Begin MailChimp Signup Form -->
 
 
   <section id="mc-container">
-    <div id="mc-background" class="container-fluid">
+    <div class="container-fluid" id="bkg-signup">
       <!-- Begin MailChimp Signup Form -->
-      <div class="col-xs-12" id="mc_embed_signup">
+      <div class="col-xs-12 col-md-6 col-md-offset-3" id="mc_embed_signup">
         <form action="//herokuapp.us13.list-manage.com/subscribe/post?u=1492eb5c7f59430c962434246&amp;id=37c7b70b06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 id="subscribe-h1">Subscribe</h1>
-              <p id="subscribe-p"> If you are interested in our product and want to know more, please subscribe to our mailing list. </p>
+          <div class="panel panel-default">
+
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 id="subscribe-h1">Subscribe</h1>
+              </div>
             </div>
-            <div class="col-xs-12">
-              <div id="indicates-required"><span id="asterisk">*</span>Required Field</div>
+
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <p id="subscribe-p"> If you are interested in our product and want to know more, please subscribe to our mailing list. </p>
+                  <div id="indicates-required"><span id="asterisk">*</span>Required Field</div>
+                </div>
+              </div>
+
+
+              <div class="row subscribe-row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                  <label class="justify-form1" for="mce-EMAIL">Email Address <span id="asterisk">*</span>
+                  </label>
+                  <input class="justify-form2" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+              </div>
+
+              <div class="row subscribe-row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                  <label id="label-marg1" class="justify-form1" for="mce-FNAME">First Name </label>
+                  <input class="justify-form2" type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+              </div>
+
+              <div class="row subscribe-row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                  <label id="label-marg2" class="justify-form1" for="mce-LNAME">Last Name </label>
+                  <input class="justify-form2" type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row subscribe-row" >
-            <div class="col-xs-12 col-md-8 col-md-offset-4">
-              <label class="justify-form1" for="mce-EMAIL">Email Address <span id="asterisk">*</span>
-              </label>
-              <input class="justify-form2" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+
+
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_1492eb5c7f59430c962434246_37c7b70b06" tabindex="-1" value="">
             </div>
-          </div>
-
-          <div class="row subscribe-row">
-            <div class="col-xs-12 col-md-8 col-md-offset-4">
-              <label id="label-marg1" class="justify-form1" for="mce-FNAME">First Name </label>
-              <input class="justify-form2" type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            <div class="clear">
+              <input id="subscribe-button" type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
             </div>
-          </div>
-
-          <div class="row subscribe-row">
-            <div class="col-xs-12 col-md-8 col-md-offset-4">
-              <label id="label-marg2" class="justify-form1" for="mce-LNAME">Last Name </label>
-              <input class="justify-form2" type="text" value="" name="LNAME" class="" id="mce-LNAME">
-            </div>
-          </div>
-
-
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_1492eb5c7f59430c962434246_37c7b70b06" tabindex="-1" value="">
-          </div>
-          <div class="clear">
-
-            <input id="subscribe-button" type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
-
-        </div>
         </form>
+        </div>
       </div>
     </div>
   </section>
@@ -345,10 +387,8 @@
             <input id="send-message" class="btn btn-primary btn-block" type="submit" value="Send Message">
           </div>
         </div>
-
-    </div>
       </form>
-
+    </div>
   </section>
 
 </body>
