@@ -241,9 +241,6 @@
       text-align: center;
       padding-top: 50px;
     }
-    .aboutus-p:hover {
-      transform: scale(1.1, 1.1);
-    }
     #how-doesit-work {
       padding-bottom: 55px;
     }
@@ -304,7 +301,6 @@
       padding-left: 0px;
       margin: 0 auto;
       padding: 10px 30px;
-      ;
     }
     .howdoesitwork-p {
       font-family: lato-med;
